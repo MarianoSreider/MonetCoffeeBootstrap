@@ -1,0 +1,50 @@
+.portada {
+    background-image: url(./Pictures//wepik--202251-212210.jpg);
+    height: 40rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    background-image: url(./Pictures/1.2.png);
+    width: 250px;
+    height: 120px;
+    text-indent: -99999px;
+    display: block;
+    float: left;
+    position: absolute;
+    top: 1.4rem;
+    left: 1.4rem;
+    z-index: 2;
+    background-color: rgba(0, 128, 0, 0);
+}
+.btn1 {
+    position: absolute;
+    top: 22.5rem;
+    width: 12rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    transition: 2s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.11);
+    text-align: center;
+    color: white;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+.galeria {
+    display: flex;
+    flex-direction: row;
+}
+
+.galeria img {
+    width: 25%;
+    height: 100%;
+}
+
+
